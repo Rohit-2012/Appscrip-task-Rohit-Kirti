@@ -1,0 +1,26 @@
+.products_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.products__listExpanded{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 375px) {
+    .products_list, .products__listExpanded {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 2rem;
+        margin-bottom: 3rem;
+        padding-left: 1rem;
+    }
+}

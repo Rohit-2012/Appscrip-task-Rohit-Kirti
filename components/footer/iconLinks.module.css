@@ -1,0 +1,22 @@
+.iconLinks__container {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contents h2 {
+    font-size: 20px;
+}
+
+.contents div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

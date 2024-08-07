@@ -1,0 +1,27 @@
+.greyStrip {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.text {
+    color: #EB4C6B;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 375px) {
+    .greyStrip {
+        justify-content: center;
+    }
+    .hidden {
+        display: none;
+    }
+}

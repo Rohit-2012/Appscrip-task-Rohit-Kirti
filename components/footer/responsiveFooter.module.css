@@ -1,0 +1,87 @@
+.footer {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+
+
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.call__details{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 14px;
+}
+
+.footer__info h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer__info p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footer__currency {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+p.transaction__info {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.footer__currency span {
+    font-weight: bold;
+}
+
+
+
+.footer__bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__copyright{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.contents h2 {
+    font-size: 14px;
+}
+
+.contents div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+}
